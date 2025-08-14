@@ -11,14 +11,13 @@
         </label></br>
 
         <label>Enter the number of snacks you eat per day: 
-            <input id="age" />
+            <input id="snackNum" />
         </label></br>
 
+        <button onclick="totalReq()">Sure of Inputs?</button>
         <p>Result: 
             <span id="resultHere"></span>
         </p>
-
-        <button>Sure of Inputs</button>
 
         <script>
             /*
@@ -35,6 +34,16 @@
                 window.alert("Please click reload the page.");
             }
                 */
+
+            function totalReq() {
+                let age = document.getElementById("age").value;
+                let maxAge = document.getElementById("maxAge").value;
+                let numPerDay = document.getElementById("snackNum").value;
+                
+                let totalRequired = (numPerDay * 365) * (maxAge - age);
+                document.getElementById("resultHere").innerHTML = " <br> You will need " + totalRequired + " cheese cakes to last until the ripe old age of " + maxAge;
+            }
+
         </script>
     </body>
 </html>
