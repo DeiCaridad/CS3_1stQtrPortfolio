@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+    <h2> Q1 3rd Graded Exercise submitted by Dei Caridad, Lithium </h2>
+
+    <!-- Enter your tags below until the script tag -->
+    
+    <label>Enter meal price:
+        <input id="mealPrice" />
+    </label> <br>
+
+    <label>Enter tipped amount:
+        <input id="tipPrice" />
+    </label> <br>
+
+    <label>Enter service charge:
+        <input id="servChar" />
+    </label> <br>
+
+    <button onclick="totalMeal()">Calculate total cost</button>
+    <p>Total Calculated Cost: 
+        <span id="resDisp"></span>
+    </p>
+
+    <script>
+        function totalMeal() {
+              // place your JS code here
+            let mealPrice = parseInt(document.getElementById("mealPrice").value,10);
+            let tipPrice = parseInt(document.getElementById("tipPrice").value,10);
+            let servChar = parseInt(document.getElementById("servChar").value,10);
+
+            let totalAmount = mealPrice + tipPrice + (servChar / 100 * mealPrice);
+
+            document.getElementById("resDisp").innerHTML = `${totalAmount}`;
+
+            /* CREDITS: 
+            How to make a document.getElementById value into an integer variable, not a string? (n.d.). Stack Overflow. https://stackoverflow.com/questions/13693580/how-to-make-a-document-getelementbyid-value-into-an-integer-variable-not-a-stri
+            W3Schools.com. (n.d.). https://www.w3schools.com/JSREF/jsref_parseint.asp
+            
+            (p.s. i forgot parseInt existed T-T)
+            */
+            }
+    </script>
+
+</body>
+</html>
