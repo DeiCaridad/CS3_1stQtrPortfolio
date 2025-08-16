@@ -2,7 +2,7 @@
 <html>
 <body>
 
-    <h2> Q1 3rd Graded Exercise submitted by Dei Caridad, Lithium </h2>
+    <h2> Q1 3rd Graded Exercise submitted by Dei Caridad of 9 Lithium </h2>
 
     <!-- Enter your tags below until the script tag -->
     
@@ -32,11 +32,13 @@
 
             let totalAmount = mealPrice + tipPrice + (servChar / 100 * mealPrice);
 
-            document.getElementById("resDisp").innerHTML = `${totalAmount}`;
+            document.getElementById("resDisp").innerHTML = totalAmount.toFixed(2);
 
             /* CREDITS: 
             How to make a document.getElementById value into an integer variable, not a string? (n.d.). Stack Overflow. https://stackoverflow.com/questions/13693580/how-to-make-a-document-getelementbyid-value-into-an-integer-variable-not-a-stri
             W3Schools.com. (n.d.). https://www.w3schools.com/JSREF/jsref_parseint.asp
+            Number.prototype.toFixed() - JavaScript | MDN. (2025, July 10). MDN Web Docs. https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Number/toFixed
+
             
             (p.s. i forgot parseInt existed T-T)
             */
