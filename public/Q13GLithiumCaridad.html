@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html>
+<body>
+
+   <h2> Q1 3rd Graded Exercise submitted by Dei Caridad of Lithium</h2>
+   <!-- Enter your HTML tags below  but before the opening script tag -->
+    <p>Guess the number: *** <br>
+        The number is from 1 to 100 inclusive. </p>
+
+    <label>Your Guess:  
+        <input id="numInp" />
+    </label>
+    <br>
+
+    <button onclick="checkIt()">Check it!</button>
+    <p>
+        Result: 
+        <span id="highLow"></span>
+    </p>
+
+    <script>
+
+       var dNumber = Math.floor(Math.random() * 100) + 1; // generates a number from 1  to 100 when the page loads
+
+        function checkIt() {
+              
+            let numImp = parseInt(document.getElementById("numInp").value, 10);
+            let highLow = document.getElementById("highLow");
+
+            if (numImp < dNumber){
+                highLow = "Higher!";
+            }
+            else if (numImp > dNumber){
+                highLow = "Lower!";
+            }
+            else{
+                highLow = "You are correct!";
+            }
+
+            document.getElementById("highLow").innerHTML = highLow;
+         
+        }
+    </script>
+
+</body>
+
+</html>
