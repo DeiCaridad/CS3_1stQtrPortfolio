@@ -6,7 +6,7 @@
 1. Loops/Loop syntax in JS 
     - We went over three different types of loops: do while, while, and for, each with their differences. From what I remember, loop structures, especially ones involving while and for, were used in many coding tasks in the previous years, so knowledge about them and how they are used was already known. Additionally, the syntax is very similar to the syntax used in JS. However, bits and pieces of trivia, like how only having "; ;" in a for loop creates an infinite loop, was something new and contributed to my overall knowledge on the topic. 
         
-    Post-test and pre-test loops were also discussed in our lecture/discussion on loops. This was a relatively new topic for me, and probably the rest of the class. However, this topic was relatively easy to grasp thanks to personal review and how our teacher described them. 
+    - Post-test and pre-test loops were also discussed in our lecture/discussion on loops. This was a relatively new topic for me, and probably the rest of the class. However, this topic was relatively easy to grasp thanks to personal review and how our teacher described them. 
     
 2. 
 
