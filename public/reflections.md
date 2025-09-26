@@ -9,9 +9,15 @@
     Post-test and pre-test loops were also discussed in our lecture/discussion on loops. This was a relatively new topic for me, and probably the rest of the class. However, this topic was relatively easy to grasp thanks to personal review and how our teacher described them. 
     
 2. 
+
 ### **List at least 5 topics that you know and can describe but needs further practice/discussion and why.  The why should be per topic listed.**
-    1. 
+
+1. 
+
 ### **Describe on what will be your plan of action in order to help yourself in understanding further the topics listed on the second items.**
-    1. 
+
+1. 
+
 ### **In the activities that were done in class, list at least two that you think were effective and at least two that you think not effective in helping you understand topics in our course and why?**
-    1. 
+
+1. 
